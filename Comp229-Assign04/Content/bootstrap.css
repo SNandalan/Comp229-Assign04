@@ -353,6 +353,7 @@ a:focus {
 
 img {
   vertical-align: middle;
+    text-align: center;
 }
 
 .img-responsive {
