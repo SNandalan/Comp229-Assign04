@@ -4,5 +4,5 @@
     <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css">
     
     <asp:GridView ID="MainGridView" runat="server"></asp:GridView>
-    
+    <a href="Update.aspx" class="btn btn-primary btn-lg">Update List &raquo;</a>
 </asp:Content>

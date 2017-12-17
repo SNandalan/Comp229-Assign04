@@ -37,6 +37,6 @@
         </Fields>
     </asp:DetailsView>
     <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="updateBtn_Click" />
-    <asp:Button ID="btnDelete" runat="server" Text="Delete" />
+    <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClick="deleteBtn_Click"/>
 
 </asp:Content>

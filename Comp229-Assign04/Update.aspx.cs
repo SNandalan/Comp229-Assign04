@@ -65,8 +65,7 @@ namespace Comp229_Assign04
                 MailAddress from = new MailAddress("cc-comp229f2016@outlook.com", "from me");
                 MailAddress to = new MailAddress("to@outlook.com", "to you");
                 message.From = from; message.To.Add(to);
-                message.Subject = "hello!";
-                //just sending the basic json due to time constraints
+                message.Subject = "Hello!";
                 System.Net.Mail.Attachment attachment;
                 attachment = new System.Net.Mail.Attachment("~/Scripts/newAssign04.json");
                 message.Attachments.Add(attachment);

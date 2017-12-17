@@ -13,7 +13,8 @@ namespace Comp229_Assign04
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string path = Server.MapPath("Assign04.json");
+            string path = System.Web.Hosting.HostingEnvironment.MapPath("~/Scripts/Assign04.json");
+            //string path = @"C:\Users\sushm\Dropbox\COMP229\Comp229-Assign04\Comp229-Assign04\Scripts\Assign04.json";
             string data = File.ReadAllText(path);
             var collection = JsonConvert.DeserializeObject<List<Json>>(data);
 
