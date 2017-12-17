@@ -56,10 +56,16 @@
 
         <tr><td style="width: 300px">Wounds:</td><td style="width: 305px">
         <asp:TextBox ID="txtWounds" runat="server" CssClass="table" Width="150px" Enabled="false"/></td></tr>
-        </table>
-        
-        <table>
-            <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" />
-            <asp:Label ID="updateLabel" runat="server"></asp:Label>
+
+        <tr>
+                <td>
+                    <asp:Button ID="" runat="server" Text="Update" CssClass="btn btn-warning btn-lg" OnClick="btnUpdate_Click" />
+                    <asp:Label ID="updateLabel" runat="server"></asp:Label>
+                </td>
+                <td>
+                    <asp:Button Text="Cancel" ID="btnCancel" runat="server" CssClass="btn btn-warning btn-lg"
+                        UseSubmitBehavior="false" CausesValidation="false" OnClick="btnCancel_Click" />
+                </td>
+            </tr>
         </table>
 </asp:Content>
